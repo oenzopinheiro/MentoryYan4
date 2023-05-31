@@ -1,0 +1,45 @@
+const prompt = require("prompt-sync")();
+
+var produto1 = prompt("Qual o produto ?");
+var valor1 = prompt("Qual o valor do produto ?");
+var produto2 = prompt("Qual o produto 2?");
+var valor2 = prompt("Qual o valor do produto 2?");
+var produto3 = prompt("Qual o produto 3?");
+var valor3 = prompt("Qual o valor do produto 3?");
+var produto4 = prompt("Qual o produto 4?");
+var valor4 = prompt("Qual o valor do produto 4?");
+var produto5 = prompt("Qual o produto 5?");
+var valor5 = prompt("Qual o valor do produto 5?");
+var produto6 = prompt("Qual o produto 6?");
+var valor6 = prompt("Qual o valor do produto 6?");
+var produto7 = prompt("Qual o produto 7?");
+var valor7 = prompt("Qual o valor do produto 7?");
+var produto8 = prompt("Qual o produto 8?");
+var valor8 = prompt("Qual o valor do produto 8?");
+var produto9 = prompt("Qual o produto 9?");
+var valor9 = prompt("Qual o valor do produto 9?");
+var produto10 = prompt("Qual o produto 10?");
+var valor10 = prompt("Qual o valor do produto 10?");
+var Porcentagem = prompt("Qual a proncentagem que você quer aumentar no valor?");
+
+var Porcentagem1 = Number(valor1) + (Number(valor1) * Number(Porcentagem) / 100);
+var Porcentagem2 = Number(valor2) + (Number(valor2) * Number(Porcentagem) / 100);
+var Porcentagem3 = Number(valor3) + (Number(valor3) * Number(Porcentagem) / 100);
+var porcentagem4 = Number(valor4) + (Number(valor4) * Number(Porcentagem) / 100);
+var Porcentagem5 = Number(valor5) + (Number(valor5) * Number(Porcentagem) / 100);
+var Porcentagem6 = Number(valor6) + (Number(valor6) * Number(Porcentagem) / 100);
+var Porcentagem7 = Number(valor7) + (Number(valor7) * Number(Porcentagem) / 100);
+var Porcentagem8 = Number(valor8) + (Number(valor8) * Number(Porcentagem) / 100);
+var Porcentagem9 = Number(valor9) + (Number(valor9) * Number(Porcentagem) / 100);
+var Porcentagem10 = Number(valor10) + (Number(valor10) * Number(Porcentagem) / 100);
+
+console.log(`O nome produto 1 é ${produto1} e o valor é ${Porcentagem1};
+O nome do produto 2 é ${produto2} e o valor é $ ${Porcentagem2};
+O nome do produto 3 é ${produto3} e o valor é $ ${Porcentagem3};
+O nome do produto 4 é ${produto4} e o valor é $ ${porcentagem4};
+O nome do produto 5 é ${produto5} e o valor é $ ${Porcentagem5};
+O nome do produto 6 é ${produto6} e o valor é $ ${Porcentagem6};
+O nome do produto 7 é ${produto7} e o valor é $ ${Porcentagem7};
+O nome do produto 8 é ${produto8} e o valor é $ ${Porcentagem8};
+O nome do produto 9 é ${produto9} e o valor é $ ${Porcentagem9};
+O nome do produto 10 é ${produto10} e o valor é $ ${Porcentagem10};`);
